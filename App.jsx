@@ -76,7 +76,7 @@ function Hero() {
         <div style={{
           aspectRatio: '4/5',
           borderRadius: 12,
-          background: 'url(/photo-placeholder.svg) center/cover',
+          background: 'url(/pontotoc-county-democrats/photo-placeholder.svg) center/cover',
           border: '6px solid var(--pc-wheat-500)',
           transform: 'rotate(1.5deg)',
           boxShadow: '0 24px 60px rgba(0,0,0,.35)',
