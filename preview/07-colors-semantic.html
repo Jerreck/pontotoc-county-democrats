@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body { margin:0; padding:0; }
+  body.pc { background: var(--pc-bg); padding: 20px 22px; box-sizing: border-box; min-height: 280px; }
+  .row { display:flex; gap: 14px; align-items: stretch; }
+  .col { display:flex; flex-direction: column; gap: 8px; }
+  .swatch { width: 100%; height: 64px; border-radius: 6px; border: 1px solid var(--pc-border); }
+  .swatch-label { display:flex; justify-content: space-between; font-size: 11px; color: var(--pc-fg-muted); font-family: var(--pc-font-mono); }
+  .swatch-name { color: var(--pc-fg); font-weight: 600; font-family: var(--pc-font-body); font-size: 12px; }
+</style>
+</head><body class="pc">
+<div class="col" style="gap:10px; font-family:var(--pc-font-mono); font-size:12px;">
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-bg);"></div><span>--pc-bg</span><span style="color:var(--pc-fg-muted);">page background</span>
+  </div>
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-bg-elevated); border:1px solid var(--pc-border);"></div><span>--pc-bg-elevated</span><span style="color:var(--pc-fg-muted);">cards, sheets, dropdowns</span>
+  </div>
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-bg-inverse);"></div><span>--pc-bg-inverse</span><span style="color:var(--pc-fg-muted);">footer, dark hero</span>
+  </div>
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-primary);"></div><span>--pc-primary</span><span style="color:var(--pc-fg-muted);">primary buttons, links</span>
+  </div>
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-accent);"></div><span>--pc-accent</span><span style="color:var(--pc-fg-muted);">stars, eyebrows, CTA emphasis</span>
+  </div>
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-success);"></div><span>--pc-success</span><span style="color:var(--pc-fg-muted);">confirmations</span>
+  </div>
+  <div style="display:grid; grid-template-columns: 28px 160px 1fr; gap:10px; align-items:center;">
+    <div style="height:24px; border-radius:4px; background:var(--pc-danger);"></div><span>--pc-danger</span><span style="color:var(--pc-fg-muted);">errors only</span>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body { margin:0; padding:0; }
+  body.pc { background: var(--pc-bg); padding: 20px 22px; box-sizing: border-box; min-height: 200px; }
+  .row { display:flex; gap: 14px; align-items: stretch; }
+  .col { display:flex; flex-direction: column; gap: 8px; }
+  .swatch { width: 100%; height: 64px; border-radius: 6px; border: 1px solid var(--pc-border); }
+  .swatch-label { display:flex; justify-content: space-between; font-size: 11px; color: var(--pc-fg-muted); font-family: var(--pc-font-mono); }
+  .swatch-name { color: var(--pc-fg); font-weight: 600; font-family: var(--pc-font-body); font-size: 12px; }
+</style>
+</head><body class="pc">
+<div class="col" style="gap:14px;">
+  <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+    <span style="display:inline-flex; gap:6px; align-items:center; padding:4px 10px; border-radius:999px; background:var(--pc-blue-100); color:var(--pc-blue-700); font-size:12px; font-weight:600;">Endorsed</span>
+    <span style="display:inline-flex; gap:6px; align-items:center; padding:4px 10px; border-radius:999px; background:var(--pc-clay-100); color:var(--pc-clay-700); font-size:12px; font-weight:600;">★ Featured</span>
+    <span style="display:inline-flex; gap:6px; align-items:center; padding:4px 10px; border-radius:999px; background:var(--pc-sage-100); color:var(--pc-sage-700); font-size:12px; font-weight:600;">Registered</span>
+    <span style="display:inline-flex; gap:6px; align-items:center; padding:4px 10px; border-radius:999px; background:var(--pc-wheat-100); color:var(--pc-wheat-700); font-size:12px; font-weight:600;">Volunteer</span>
+  </div>
+  <div style="display:flex; gap:18px; align-items:center;">
+    <span class="pc-eyebrow">★ Upcoming event</span>
+    <span class="pc-eyebrow" style="color:var(--pc-blue-500);">Precinct news</span>
+    <span class="pc-eyebrow" style="color:var(--pc-ink-400);">Archive · 2024</span>
+  </div>
+</div>
+</body></html>

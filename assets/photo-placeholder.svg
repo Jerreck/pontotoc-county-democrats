@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="photo placeholder">
+  <defs>
+    <pattern id="stripes" patternUnits="userSpaceOnUse" width="14" height="14" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="#eee2c9"></rect>
+      <rect width="7" height="14" fill="#e6d6b6"></rect>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#stripes)"></rect>
+  <rect x="0" y="0" width="800" height="500" fill="#1f2f4d" opacity="0.04"></rect>
+  <text x="400" y="252" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#5b513f" letter-spacing="1">[ drop a real event photo here ]</text>
+</svg>

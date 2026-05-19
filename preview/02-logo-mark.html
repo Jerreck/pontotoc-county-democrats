@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body { margin:0; padding:0; }
+  body.pc { background: var(--pc-bg); padding: 20px 22px; box-sizing: border-box; min-height: 200px; }
+  .row { display:flex; gap: 14px; align-items: stretch; }
+  .col { display:flex; flex-direction: column; gap: 8px; }
+  .swatch { width: 100%; height: 64px; border-radius: 6px; border: 1px solid var(--pc-border); }
+  .swatch-label { display:flex; justify-content: space-between; font-size: 11px; color: var(--pc-fg-muted); font-family: var(--pc-font-mono); }
+  .swatch-name { color: var(--pc-fg); font-weight: 600; font-family: var(--pc-font-body); font-size: 12px; }
+</style>
+</head><body class="pc">
+<div style="display:flex; gap:20px; align-items:flex-end;">
+  <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
+    <div style="background:var(--pc-bone-50); padding:14px; border:1px solid var(--pc-border); border-radius:8px;">
+      <img src="../assets/logo-mark.svg" width="96" height="96" alt="">
+    </div>
+    <span class="swatch-label" style="font-family:var(--pc-font-mono);">on Bone</span>
+  </div>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
+    <div style="background:var(--pc-blue-700); padding:14px; border-radius:8px;">
+      <img src="../assets/logo-mark.svg" width="96" height="96" alt="">
+    </div>
+    <span class="swatch-label" style="font-family:var(--pc-font-mono);">on Blue</span>
+  </div>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
+    <div style="background:var(--pc-clay-500); padding:14px; border-radius:8px;">
+      <img src="../assets/logo-mark.svg" width="96" height="96" alt="">
+    </div>
+    <span class="swatch-label" style="font-family:var(--pc-font-mono);">on Clay</span>
+  </div>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
+    <div style="background:#fff; padding:14px; border:1px solid var(--pc-border); border-radius:8px;">
+      <img src="../assets/logo-mark.svg" width="48" height="48" alt="">
+    </div>
+    <span class="swatch-label" style="font-family:var(--pc-font-mono);">small / favicon</span>
+  </div>
+</div>
+</body></html>
