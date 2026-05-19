@@ -17,7 +17,7 @@ function Header({ page, setPage }) {
         <a href="#" onClick={(e)=>{e.preventDefault(); setPage('Home');}} style={{
           display: 'flex', alignItems: 'center', gap: 14, textDecoration: 'none',
         }}>
-          <img src="/logo-mark.svg" width="44" height="44" alt="" />
+          <img src="/pontotoc-county-democrats/logo-mark.svg" width="44" height="44" alt="" />
           <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.1, gap: 4 }}>
             <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 20, fontWeight: 700, color: 'var(--pc-blue-700)', letterSpacing: '-0.01em' }}>Pontotoc County</span>
             <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 20, fontWeight: 600, fontStyle: 'italic', color: 'var(--pc-blue-700)' }}>Democrats</span>
@@ -317,7 +317,7 @@ function Footer() {
       }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 14 }}>
-            <img src="/logo-mark.svg" width="44" height="44" alt="" />
+            <img src="/pontotoc-county-democrats/logo-mark.svg" width="44" height="44" alt="" />
             <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.1, gap: 4 }}>
               <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 18, fontWeight: 700, color: '#fff' }}>Pontotoc County</span>
               <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 18, fontWeight: 600, fontStyle: 'italic', color: '#fff' }}>Democrats</span>
