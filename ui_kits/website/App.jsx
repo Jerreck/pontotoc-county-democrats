@@ -17,7 +17,7 @@ function Header({ page, setPage }) {
         <a href="#" onClick={(e)=>{e.preventDefault(); setPage('Home');}} style={{
           display: 'flex', alignItems: 'center', gap: 14, textDecoration: 'none',
         }}>
-          <img src="../../assets/logo-mark.svg" width="44" height="44" alt="" />
+          <img src="/assets/logo-mark.svg" width="44" height="44" alt="" />
           <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.1, gap: 4 }}>
             <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 20, fontWeight: 700, color: 'var(--pc-blue-700)', letterSpacing: '-0.01em' }}>Pontotoc County</span>
             <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 20, fontWeight: 600, fontStyle: 'italic', color: 'var(--pc-blue-700)' }}>Democrats</span>
@@ -76,7 +76,7 @@ function Hero() {
         <div style={{
           aspectRatio: '4/5',
           borderRadius: 12,
-          background: 'url(../../assets/photo-placeholder.svg) center/cover',
+          background: 'url(/assets/photo-placeholder.svg) center/cover',
           border: '6px solid var(--pc-wheat-500)',
           transform: 'rotate(1.5deg)',
           boxShadow: '0 24px 60px rgba(0,0,0,.35)',
@@ -191,7 +191,7 @@ function CandidateSpotlight() {
         <div style={{
           aspectRatio: '4/5',
           borderRadius: 8,
-          background: 'url(../../assets/photo-placeholder.svg) center/cover',
+          background: 'url(/assets/photo-placeholder.svg) center/cover',
           border: '1px solid var(--pc-border)',
           boxShadow: 'var(--pc-shadow-3)',
         }}/>
@@ -317,7 +317,7 @@ function Footer() {
       }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 14 }}>
-            <img src="../../assets/logo-mark.svg" width="44" height="44" alt="" />
+            <img src="/assets/logo-mark.svg" width="44" height="44" alt="" />
             <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.1, gap: 4 }}>
               <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 18, fontWeight: 700, color: '#fff' }}>Pontotoc County</span>
               <span style={{ fontFamily: 'var(--pc-font-display)', fontSize: 18, fontWeight: 600, fontStyle: 'italic', color: '#fff' }}>Democrats</span>
